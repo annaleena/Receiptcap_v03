@@ -69,8 +69,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		}
 		
 		if (id == R.id.action_edit) {
-			Intent editIntent = new Intent (this, EditActivity.class);
-			startActivity(editIntent);
+		// edit image
 		}
 		
 		if (id == R.id.action_delete) {
