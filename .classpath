@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/tess-two"/>
+	<classpathentry kind="lib" path="bin/dexedLibs/tess-two-5ddf4e8c082c4f4f5290bdf56c9e6a01.jar"/>
+	<classpathentry kind="lib" path="bin/dexedLibs/tess-two-916a1594f384dd26e46d1c3d7a4d1a77.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

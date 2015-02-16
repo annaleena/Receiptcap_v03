@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+environment/project/com.android.toolchain.gcc.716773160/ANDROID_NDK/delimiter=\:
+environment/project/com.android.toolchain.gcc.716773160/ANDROID_NDK/operation=replace
+environment/project/com.android.toolchain.gcc.716773160/ANDROID_NDK/value=/Users/ansku/Documents/eclipse/android-ndk-r10b
+environment/project/com.android.toolchain.gcc.716773160/NDKBUILDCMD/delimiter=\:
+environment/project/com.android.toolchain.gcc.716773160/NDKBUILDCMD/operation=append
+environment/project/com.android.toolchain.gcc.716773160/NDKBUILDCMD/value=/Users/ansku/Documents/Eclipse/android-ndk-r10b
+environment/project/com.android.toolchain.gcc.716773160/NDKROOT/delimiter=\:
+environment/project/com.android.toolchain.gcc.716773160/NDKROOT/operation=replace
+environment/project/com.android.toolchain.gcc.716773160/NDKROOT/value=/Users/ansku/Documents/Eclipse/android-ndk-r10b
+environment/project/com.android.toolchain.gcc.716773160/PATH/delimiter=\:
+environment/project/com.android.toolchain.gcc.716773160/PATH/operation=replace
+environment/project/com.android.toolchain.gcc.716773160/PATH/value=/usr/bin\:/bin\:/usr/sbin\:/sbin\:/usr/local/bin\:/usr/local/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/usr/local/git/bin\:Documents/Eclipse/adt-bundle-mac/sdk/tools\:Documents/Eclipse/adt-bundle-mac/sdk/platform-tools\:Documents/Eclipse/android-ndk-r10b\:Users/ansku/Documents/Eclipse/adt-bundle-mac/sdk/tools\:Users/ansku/Documents/Eclipse/adt-bundle-mac/sdk/platform-tools\:Users/ansku/Documents/Eclipse/android-ndk-r10b
+environment/project/com.android.toolchain.gcc.716773160/append=true
+environment/project/com.android.toolchain.gcc.716773160/appendContributed=true
