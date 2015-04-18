@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">ReceiptCapture</string>
-    <string name="action_scan">Scan</string>
-    <string name="action_crop">Crop photo</string>
-    <string name="action_edit">Edit photo</string>
-    <string name="action_delete">Delete photo</string>
+    
+    <string name="app_name">Receiptcapture</string>
+    <string name="welcome">Welcome to use Receiptcapture</string>
+    <string name="choose">Extract text from images</string>
     <string name="action_exit">Exit</string>
-        
+    
+    <color name="lime">#BAF702</color>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
+    <color name="grey">#666666</color>
+    
 
 </resources>

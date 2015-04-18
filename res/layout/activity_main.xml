@@ -2,21 +2,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/white"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.alk.receiptcap_v03.MainActivity" >
 
-    <Button
+    <TextView
+        android:id="@+id/OCRtextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="Roboto"
+        android:text="@string/choose"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/grey"
+        android:textSize="16sp" />
+
+    <ImageButton
         android:id="@+id/cameraButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/OCRtextView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="115dp"
-        android:text="Take a photo" />
+        android:layout_marginTop="126dp"
+        android:background="@color/white"
+        android:src="@drawable/camerabutton" />
+
+    <ImageButton
+        android:id="@+id/galleryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OCRtextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:background="@color/white"
+        android:src="@drawable/gallerybutton" />
 
     <TextView
         android:id="@+id/textView"
@@ -24,29 +48,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:text="Welcome to ReceiptCapture!"
+        android:layout_marginTop="33dp"
+        android:fontFamily="Roboto"
+        android:text="@string/welcome"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@color/white" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:text="Choose/take photo to edit"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-   	    android:textColor="@color/white" />
-
-    <Button
-        android:id="@+id/galleryButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/cameraButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
-        android:text="Choose photo from gallery" />
+        android:textColor="@color/grey"
+        android:textSize="18sp" />
 
 </RelativeLayout>
